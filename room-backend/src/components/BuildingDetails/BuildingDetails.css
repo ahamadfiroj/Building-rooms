@@ -1,0 +1,40 @@
+.building-layout{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+}
+.building-header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.building-action{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.rooms-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.room-card{
+    width: 300px;
+    min-height: 200px;
+    border-radius: 12px;
+    border: 0.5px solid #E1E1E1;
+    background: #F6F6F6;
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+}
+.room-card-heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
