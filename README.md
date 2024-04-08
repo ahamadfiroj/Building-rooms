@@ -5,6 +5,8 @@
 - The backend can be written in Java, Python or a backend Javascript framework such as NodeJS
 - All Source code for the backend shall be in the room-backend directory and ran as a standalone service
 
+complete project with next.js fullstack 
+
 GET_BUILDING_DETAILS, ADD_ROOM, REMOVE_ROOM, CHANGE_TEMPERATURE api  : http://localhost:3000/api/building
 
 request body :
